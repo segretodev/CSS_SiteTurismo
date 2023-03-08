@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body {
+background-color: #f7f7f7;
+}
+
+header {
+    background-color: #181818;
+    border-bottom: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 2em;
+    color: #D9D5D2;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    text-align: center;
+}
+
+.tere { 
+    width: 40%;
+}
+
+main iframe {
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  }
+
+.button-voltar {
+        border-radius: 20px;
+        color: #FFFFFF;
+        font-family: 'Tilt Warp', cursive;
+        font-size: 20px;
+        font-weight: 100;
+        padding: 20px;
+        background-color: #000000;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 20px 0 #000000;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+     }
